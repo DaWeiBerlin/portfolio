@@ -976,7 +976,6 @@ export class LandingpageComponent implements OnDestroy, OnInit, AfterViewInit {
     if (this.GitHubListener) this.GitHubListener();
     if (this.LiveTestListener) this.LiveTestListener();
     if (this.SendButtonListener) this.SendButtonListener();
-    // clearInterval(this.loopInterval)
   }
 
   handleMouseEvents(): void {
@@ -985,7 +984,7 @@ export class LandingpageComponent implements OnDestroy, OnInit, AfterViewInit {
     const pic1: HTMLElement | null = document.getElementById("pic1");
     const pic2: HTMLElement | null = document.getElementById("pic2");
   
-    if (section6Email && pic1) {  // Check both section6Email and pic1
+    if (section6Email && pic1) {  
       section6Email
       .addEventListener("mouseover", (): void => {
         pic1.setAttribute("src", "./../../../assets/img/desktopIMGs/🦆 icon _email_ (1).png");
@@ -995,7 +994,7 @@ export class LandingpageComponent implements OnDestroy, OnInit, AfterViewInit {
       });
     }
   
-    if (section6Phone && pic2) {  // Check both section6Phone and pic2
+    if (section6Phone && pic2) {  
       section6Phone.addEventListener("mouseover", (): void => {
         pic2.setAttribute("src", "./../../../assets/img/desktopIMGs/🦆 icon _phone_ (1).png");
       });
