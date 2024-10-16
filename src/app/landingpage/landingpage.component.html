@@ -1,0 +1,430 @@
+<main class="main">
+    <section id="section1">
+        <div id="LinkLogos">
+            <div id="LinkLogo1" (click)="Mail()"><a [href]="mailtoLink" target="_blank"></a></div>
+            <div id="LinkLogo2" (click)="LinkedIn()"><a href="https://www.linkedin.com/in/d-b-73448b320/" target="_blank"></a></div>
+            <div id="LinkLogo3" (click)="GitHub()"><a href="https://github.com/DaWeiBerlin" target="_blank"></a></div>
+        </div>
+        <div id="Languages">
+            <div id="DE" (click)="switchLanguage('de')">DE</div>
+            <div id="verticalLine"></div>
+            <div id="EN" (click)="switchLanguage('en')">EN</div>
+        </div>
+    </section>
+    <section id="section2">
+        <div id="backgroundPicture"><img src="" alt=""></div>
+        <div id="arrow2">
+            <a href="#section3">
+            </a>
+        </div>
+        <div id="TitleSection2">
+            <div><span id="span1" [innerHTML]="landingPage1">David Burkert</span></div>
+            <div><span id="span2" [innerHTML]="landingPage2">Frontend Developer</span></div>
+        </div>
+    </section>
+    <section id="section3">
+        <div>
+            <div id="WhyMe">
+                <span [innerHTML]="landingPage3">Why me</span>
+            </div>
+            <div id="AboutMe">
+                <div id="AboutMeText">
+                    <span [innerHTML]="landingPage4">I am motivated to continously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member of your team.</span>
+                </div>
+                <div id="Iam"><span [innerHTML]="landingPage5">I am</span></div>
+                <div id="AboutMeSub">
+                    <div>
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/LocatedInCityNameLogo2.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/OpenToWorkRemoteLogo2.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/baggage.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="ContactButton">
+                    <button href="#section6" [innerHTML]="landingPage6">Contact me</button>
+                </div>
+            </div>
+        </div> 
+        <div id="arrow3">
+            <a href="#section4">
+                <img  src="./../../assets/img/desktopIMGs/Arrow1Green.png" alt="">
+            </a>
+        </div>
+    </section>
+    <section id="section4">
+        <div id="SkillSection">
+            <div id="header">
+                <span [innerHTML]="landingPage7">My Skill Set</span>
+            </div>
+            <div id="content">
+                <div id="contentText">
+                    <span [innerHTML]="landingPage8">The IT landscape is continously evolving, with new technologies and methodologies. Staying motivated to expand my IT skills requires a strategic approach, a curios mindset, and a commitment to lifelong learning.</span>
+                </div>
+                <div id="Skills">
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/AngularLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/TypeScriptLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/JavaScriptLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/HTMLLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/CSSGreenLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithoutTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/SassLogo.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage9">Sass</span>
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/Rest-ApiLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/FirebaseLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/Rest-ApiLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithoutTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/PythonLogo.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage10">Python</span>
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/GitGreen.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/ScrumLogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="SkillWithoutTitle">
+                        <div>
+                            <img id="Bootstrap" [ngStyle]="{'width': '73px'}" src="./../../assets/img/desktopIMGs/BootstrapLogo.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage11">Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="SkillWithoutTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/WindowsLogo.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage12">Windows</span>
+                        </div>
+                    </div>
+                    <div class="SkillWithoutTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/Linux.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage13">Linux</span>
+                        </div>
+                    </div>
+                    <div class="SkillWithTitle">
+                        <div>
+                            <img src="./../../assets/img/desktopIMGs/ChallengeMeLogoGrey.png" alt="">
+                        </div>
+                    </div>
+                    <div id="textField" [innerHTML]="landingPage14">
+                        I'm allways happy to learn new technologies, just tell me what you need.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="arrow4">
+            <a href="#section5">
+                <img  src="./../../assets/img/desktopIMGs/Arrow1Green.png" alt="">
+            </a>
+        </div>
+    </section>
+    <section id="section5">
+        <div id="SectionTitle">
+            <span [innerHTML]="landingPage15">My Work</span>
+        </div>
+        <div id="Project1" class="Project" [ngClass]="Project" [ngClass]="Project">
+            <div class="ProjectTitle"><div class="TitleNumber">1</div><div class="ProjectTitleText" [innerHTML]="landingPage16">Project Join</div></div>
+            <div class="ProjectContent">
+                <div class="ProjectContainer">
+                    <div><img src="./../../assets/img/Join.png" alt=""></div>
+                    <div id="ButtonArea1" class="ButtonArea"><button (click)="handleGitHub1()" class="GitHubButton" id="GitHubButton1">GitHub</button><button (click)="handleLiveTest1()" class="LiveTestButton" id="LiveTestButton1">Live Test</button></div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage17">About the project</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage18">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and and categories.Fully Functional Login Area and a Database to store the progress of the tasks.</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage19">Technologies I have used</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage20">HTML, JavaScript, CSS, Firebase, IP-Geolocation</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage21">What I have learned</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText2">
+                        <span [innerHTML]="landingPage22">I've learned to store and edit data in a Database. I'learned to get and delete data from a Database. I've also learned to fetch the data drom an API and to use the different options. In extra I've stored the IP for the automatic Login.</span>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="show1" class="show" id="show1" (click)="showIT1()"><div [innerHTML]="show1Text">show more</div><img id="projectArrow1" src="./../../assets/img/mobileIMGs/Polygon 2.png" alt=""></div>
+        </div>
+        <div id="Project2" class="Project" [ngClass]="Project" [ngClass]="Project">
+            <div class="ProjectTitle"><div class="TitleNumber">2</div><div class="ProjectTitleText" [innerHTML]="landingPage23">Project Pollo Loco</div></div>
+            <div class="ProjectContent">
+                <div class="ProjectContainer">
+                    <div><img src="./../../assets/img/ElPolloLoco.png" alt=""></div>
+                    <div id="ButtonArea2" class="ButtonArea"><button (click)="handleGitHub2()" class="GitHubButton" id="GitHubButton2">GitHub</button><button (click)="handleLiveTest2()" class="LiveTestButton" id="LiveTestButton2">Live Test</button></div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage24">About the project</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage25">Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa, while you have to jump over chickens and at the end you have to fight against the crazy hen.</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage26">Technologies I have used</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage27">HTML, JavaScript Classes, CSS</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage28">What I have learned</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText2">
+                        <span [innerHTML]="landingPage29">I've coded classes and chained them correctly. I'learned a lot in this project, for example to animate PNG sequences with Intervals in a canvas element, to implement game sounds and various Keyboard events and a lot more.</span>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="show2" class="show" id="show2" (click)="showIT2()"><div [innerHTML]="show2Text">show more</div><img id="projectArrow2" src="./../../assets/img/mobileIMGs/Polygon 2.png" alt=""></div>
+        </div>
+        <div id="Project3" class="Project" [ngClass]="Project" [ngClass]="Project">
+            <div class="ProjectTitle"><div class="TitleNumber">3</div><div class="ProjectTitleText" [innerHTML]="landingPage30">Project Delivery-App</div></div>
+            <div class="ProjectContent">
+                <div class="ProjectContainer">
+                    <div><img src="./../../assets/img/VanHoa.png" alt=""></div>
+                    <div id="ButtonArea3" class="ButtonArea"><button (click)="handleGitHub2()" class="GitHubButton" id="GitHubButton3">GitHub</button><button (click)="handleLiveTest3()" class="LiveTestButton" id="LiveTestButton3">Live Test</button></div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage31">About the project</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage32">In this App you can select and add dishes to the orderlist. It's possible to edit the order list. There is an extra page for the menu, the imprint and contacts. Everything is lovely designed with mp4s and pngs.</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage33">Technologies I have used</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage34">HTML, JavaScript, CSS</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage35">What I have learned</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText2">
+                        <span [innerHTML]="landingPage36">I've coded classes and chained them correctly. I'learned a lot in this project, for example to animate PNG sequences with Intervals in a canvas element, to implement game sounds and various Keyboard events and a lot more.</span>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="show3" class="show" id="show3" (click)="showIT3()"><div [innerHTML]="show3Text">show more</div><img id="projectArrow3" src="./../../assets/img/mobileIMGs/Polygon 2.png" alt=""></div>
+        </div>
+        <div id="Project4" class="Project" [ngClass]="Project">
+            <div class="ProjectTitle"><div class="TitleNumber">4</div><div class="ProjectTitleText" [innerHTML]="landingPage37">Project Polaroid Messenger</div></div>
+            <div class="ProjectContent">
+                <div class="ProjectContainer">
+                    <div><img src="./../../assets/img/VanHoa.png" alt=""></div>
+                    <div id="ButtonArea4" class="ButtonArea"><button (click)="handleGitHub4()" class="GitHubButton" id="GitHubButton3">GitHub</button><button (click)="handleLiveTest4()" class="LiveTestButton" id="LiveTestButton3">Live Test</button></div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage38">About the project</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage39">In this App you can select and add dishes to the orderlist. It's possible to edit the order list. There is an extra page for the menu, the imprint and contacts. Everything is lovely designed with mp4s and pngs.</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle">
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage40">Technologies I have used</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText1">
+                        <span [innerHTML]="landingPage41">HTML, JavaScript, CSS</span>
+                    </div>
+                </div>
+                <div class="ProjectTextContainer">
+                    <div class="ProjectTextContainerTitle"> 
+                        <div class="pointPicture">
+                            <img src="./../../assets/img/desktopIMGs/Ellipse 25.png" alt="">
+                        </div>
+                        <div>
+                            <span [innerHTML]="landingPage42">What I have learned</span>
+                        </div>
+                    </div>
+                    <div class="ProjectTextContainerText2">
+                        <span [innerHTML]="landingPage43">I've coded classes and chained them correctly. I'learned a lot in this project, for example to animate PNG sequences with Intervals in a canvas element, to implement game sounds and various Keyboard events and a lot more.</span>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="show4" class="show" id="show4" (click)="showIT4()"><div [innerHTML]="show4Text">show more</div><img id="projectArrow4" src="./../../assets/img/mobileIMGs/Polygon 2.png" alt="Show Logo"></div>
+        </div>
+        <div id="Section5Sub5">
+            <div>
+                <div class="TitleNumber2">5</div><div class="ProjectTitleText" [innerHTML]="landingPage44">Ongoing project</div>
+            </div>
+            <div>
+                <span [innerHTML]="landingPage45">I am currently working on developing a streaming app. This is for me both exciting and challenging. In my work the key to success lies in a good planning and execution. With the streaming App national conficts could be solved and it could be possible to achieve peace with social interaction and moderation.</span>
+            </div>
+            <div id="ButtonArea2">
+                <a href="#section6"><button [innerHTML]="landingPage46">Let's talk</button></a>
+            </div>
+        </div>
+        <div id="arrow5">
+            <a href="#section6">
+                <img  src="./../../assets/img/desktopIMGs/Arrow1Green.png" alt="">
+            </a>
+        </div>
+        
+    </section>
+    <section id="section6">
+        <div id="section6Contact">
+            <div id="section6Title" [innerHTML]="landingPage47">Contact me</div>
+            <app-contact-form id="contactForm"></app-contact-form>
+        </div>
+        <div id="section6Text">
+            <div id="section6Text2">
+                <div id="section6TextTitle">
+                    <span [innerHTML]="landingPage48">Let us work together.</span>
+                </div>
+                <div>
+                    <span [innerHTML]="landingPage49">Whether your project involves developing a new application, implementing a new Database or calculate big Data sets. I have the technical acumen and problem-solving skills to ensure successful outcoumes</span>
+                </div>
+                <div>
+                    <div id="section6Email"><a class="section6a" href="mailto:davidburkert@outlook.com"><div><img id="pic1" src="./../../assets/img/desktopIMGs/🦆 icon _email_.png" alt=""></div><div>E-mail: davidburkert&#64;outlook.com</div></a></div>
+                    <div id="section6Phone"><a class="section6a" href="tel:004915120577309"><div><img id="pic2" src="./../../assets/img/desktopIMGs/🦆 icon _phone_.png" alt=""></div><div>Tel: +49 1521 0577 309</div></a></div>
+                </div>
+            </div>
+            <div id="arrow6">
+                <a class="section6a" href="#section2">
+                    <img  src="./../../assets/img/desktopIMGs/ArrowBack1.png" alt="">
+                </a>
+            </div>
+            <div id="littleFooter">
+                <div id="littleFooterSub1">
+                    <a class="section6a" routerLink="/imprint" routerLinkActive="imprint-link" href="imprint"[innerHTML]="landingPage50">Legal notice</a>
+                    <a class="section6a" routerLink="/dataprivacy" routerLinkActive="dataprivacy-link" href="dataprivacy" [innerHTML]="landingPage51">privacy policy</a>
+                </div>    
+                <div><div><img id="copyright" src="./../../assets/img/Copyright.png" alt=""></div><div><span>David Burkert 2024</span></div></div>
+            </div>
+        </div>
+    </section>
+</main>

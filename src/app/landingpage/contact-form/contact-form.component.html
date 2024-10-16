@@ -1,0 +1,25 @@
+<div class="container">
+    <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" autocomplete="off">
+        @if (language == "en") {
+            <input (input)="checkValidation('company')" minlength="0" [(ngModel)]="contactData.company" type="text" id="company" name="company" placeholder="Company" required autocomplete="off" #company="ngModel">
+            <input (input)="checkValidation('name')" minlength="4" [(ngModel)]="contactData.name" type="text" id="name" name="name" placeholder="Name" required autocomplete="off" #name="ngModel">
+            <input (input)="checkValidation('email')" minlength="8" [(ngModel)]="contactData.email" type="email" id="email" name="email" placeholder="E-Mail" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" autocomplete="off" #email="ngModel">
+            <textarea (input)="checkValidation('message')" minlength="5" #message="ngModel" [(ngModel)]="contactData.message" id="subject" name="subject" placeholder="Message" style="height:200px" required autocomplete="off"></textarea>
+            <div id="privacyPolicyText">
+                <div><img id="box" (click)="agreePrivacyPolicy();checkValidation('box')" alt=""></div>
+                <div >I've read the <a href="dataprivacy" id="privacyPolicy">privacy policy</a> and agree to the processing of my data as outlined.</div>            
+            </div>
+            <input [ngStyle]="buttonStyles" type="submit" value="Submit" [disabled]="isDisabled" id="contactFormButton"> 
+        }@else{
+            <input (input)="checkValidation('company')" (keydown)="checkValidation('company')" minlength="0" maxlength="30" [(ngModel)]="contactData.company" type="text" id="company" name="company" placeholder="Firma" required autocomplete="off" #company="ngModel">
+            <input (input)="checkValidation('name')" (keydown)="checkValidation('name')" minlength="4" maxlength="40" [(ngModel)]="contactData.name" type="text" id="name" name="name" placeholder="Name" required autocomplete="off" #name="ngModel">
+            <input (input)="checkValidation('email')" (keydown)="checkValidation('email')" minlength="8" maxlength="40" [(ngModel)]="contactData.email" type="email" id="email" name="email" placeholder="E-Mail" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" autocomplete="off" #email="ngModel">
+            <textarea (input)="checkValidation('message')" (keydown)="checkValidation('message')" minlength="10" maxlength="40" #message="ngModel" [(ngModel)]="contactData.message" id="subject" name="subject" placeholder="Nachricht" style="height:200px" required autocomplete="off"></textarea>
+            <div id="privacyPolicyText">
+                <div><img id="box" (click)="agreePrivacyPolicy();checkValidation('box')" alt=""></div>
+                <div >Ich habe die<a href="dataprivacy" id="privacyPolicy">Datenschutzerklärung</a> gelesen und ich Stimme der Datenverarbeitung zu.</div>            
+            </div>
+            <input [ngStyle]="buttonStyles" type="submit" value="Senden" [disabled]="isDisabled" id="contactFormButton"> 
+        }
+    </form>
+</div>

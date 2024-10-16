@@ -1,0 +1,104 @@
+@use '../../../src/styles' as *
+
+main
+  position: relative
+  top: 0px
+
+#videoData
+  position: fixed
+  left: 172px
+  top: 0
+  width: calc(100vw - 172px)
+  height: 100vh
+  object-fit: cover
+  z-index: 0
+  @media screen and ( max-width: 1350px )
+    left: 0
+    top: 120px
+    width: 100vw
+    height: calc(100vh - 120px)
+
+* 
+  margin: 0
+  padding: 0
+
+#firstLevelDataPrivacy
+  position: absolute
+  top: 0
+  height: auto
+  left: 172px
+  width: calc(100vw - 332px)
+  background-color: rgba(0, 0, 0, 0.75)
+  z-index: 1
+  color: white
+  padding: 80px 80px
+  overflow-y: scroll !important
+  overflow-x: hidden
+  font-family: Quantico
+  @media screen and ( max-width: 1350px )  
+    position: absolute
+    top: 0
+    height: max-content
+    left: 0
+    width: calc(100vw - 160px)
+    background-color: rgba(0, 0, 0, 0.75)
+    z-index: 1
+    color: white
+    padding: 40px 80px 160px 80px
+    overflow-y: scroll !important
+    overflow-x: hidden
+    font-family: Quantico
+  @media screen and ( max-width: 860px )
+    top: 0px
+    padding: 40px 80px 40px 80px
+  @media screen and ( max-width: 650px ) 
+    padding: 10px 40px
+    width: calc(100vw - 80px)
+    height: auto
+  @media screen and ( max-width: 500px ) 
+    padding: 10px 25px
+    width: calc(100vw - 50px)
+  >#copyright
+    margin-top: 60px
+    margin-bottom: 0px
+  >div
+    z-index: 2
+    margin-top: 40px
+    width: calc(50%)
+    @media screen and ( max-width: 1000px )
+      width: 100%
+    >h1
+      color: white
+    > h2 
+      margin-top: 20px
+      font-size: 24px
+
+    > h3 
+      margin-top: 15px
+      font-size: 22px
+
+    > h4 
+      margin-top: 10px
+      font-size: 20px
+
+    > p 
+      margin-top: 10px
+    >div
+      >a
+        color: #b5e93b !important
+        >a
+          color: #b5e93b !important
+  >#Credits
+    >div
+      >a
+        >a
+          >a
+            color: #b5e93b !important
+
+.anchor
+  color: #b5e93b !important
+
+.Language
+  &:hover
+    color: white
+    filter: drop-shadow(0 0 5px white)

@@ -1,0 +1,51 @@
+<nav>
+  <div id="navLogo">
+      <a (click)="scrollToDiv('section2')">
+          <video #videoHeader id="videoHeader" autoplay="true" muted="true" loop src="./../../../assets/videos/David Burkert (5).mp4"></video>
+      </a>
+  </div>
+  <div id="navMenuPoints" [innerHTML]="navMenu">
+    <div [innerHTML]="nav1">
+      <a href="#section3" (click)="scrollToDiv('section3')">
+        <span>Why me</span>
+      </a>
+    </div>
+    <div [innerHTML]="nav2">
+      <a href="#section4" (click)="scrollToDiv('section4')">
+        <span>Skills</span>
+      </a>
+    </div>
+    <div [innerHTML]="nav3">
+      <a href="#section5" (click)="scrollToDiv('section5')">
+        <span>My Work</span>
+      </a>
+    </div>
+    <div [innerHTML]="nav4">
+      <a href="#section6" (click)="scrollToDiv('section6')">
+        <span>Contact</span>
+      </a>
+    </div>
+  </div>
+  <div [ngStyle]="{'display':'none'}" id="menuButton">
+      <div><img id="imgMenuDiv" (click)="openMenu()" src="./../../../assets/img/mobileIMGs/Property 1=burger.png" alt=""></div>
+  </div>
+  <div *ngIf="isMenuVisible" id="menu">
+    <div id="menuDiv">
+      <div id="closeButton" (click)="openMenu()"><img src="./../../../assets/img/mobileIMGs/output-onlinepngtools (3).png" alt=""></div>
+      <div id="landingPage">
+        <div id="header1Div"><a class="section3" [innerHTML]="header1" (click)="openMenu()">{{header1}}</a></div>
+        <div id="header2Div"><a class="section4" [innerHTML]="header2" (click)="openMenu()">My Skills</a></div>
+        <div id="header3Div"><a class="section5" [innerHTML]="header3" (click)="openMenu()">My Work</a></div>
+        <div id="header4Div"><a class="section6" [innerHTML]="header4" (click)="openMenu()">Contact me</a></div>
+        <div id="header5Div"><a href="dataprivacy" [innerHTML]="header5" (click)="openMenu()">Datenschutz</a></div>
+        <div id="header6Div"><a href="imprint" [innerHTML]="header6" (click)="openMenu()">Impressum</a></div>
+      </div>
+      <div id="languageMenu">
+        <div (click)="navMenuService.switchLanguage('de');openMenu()">DE</div>
+        <div id="verticalLine2"></div>
+        <div (click)="navMenuService.switchLanguage('en');openMenu()">EN</div>
+      </div>
+    </div>
+  </div>
+</nav>
+

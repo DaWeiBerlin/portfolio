@@ -1,0 +1,36 @@
+
+    <video id="videoImprint" [attr.autoplay]="true" [attr.loop]="true" src="./../../assets/videos/144307-784384585.mp4" autoplay></video>
+    <main>
+        <div>
+            <div>
+                <h1 [innerHTML]="imprintTitle">Imprint</h1>
+                <div [innerHTML]="imprint1">David Victor Markus Burkert<br />
+                Kamorstra&szlig;e 35<br />
+                c/o Schmid<br />
+                78464 Konstanz</div>
+            </div>
+            <div>
+                <h2 [innerHTML]="imprint2">Contact</h2>
+                <div [innerHTML]="imprint3">Phone: 015210577309<br />
+                Fax: -<br />
+                E-Mail: davidburkert&#64;outlook.com</div>
+            </div>
+
+            <div>
+                <h2 [innerHTML]="imprint4">Editorially Responsible</h2>
+                <div [innerHTML]="imprint5">David Burkert<br />
+                Kamorstra&szlig;e 35<br />
+                78464 Konstanz</div>
+
+                <div [innerHTML]="imprint6">
+                    Source: 
+                    <a [ngStyle]="{'color': '#b5e93b !important'}" id="sourceAnchor" href="https://www.e-recht24.de">
+                        https://www.e-recht24.de
+                    </a>
+                </div>  
+            </div>
+        </div>
+        
+    </main>
+
+

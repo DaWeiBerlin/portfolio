@@ -1,0 +1,17 @@
+<div id="footer">
+    @if(windowInnerWidth < 1350 ){
+        <div id="navLogo">
+            <a href="">
+                <video #myVideo id="videoFooter" autoplay="true" muted="true" loop src="./../../../assets/videos/David Burkert (5).mp4"></video>
+            </a>
+        </div>
+        <div id="footerLinks">
+            <div [innerHTML]="footer1" class="LinkContainer">
+                <a href="">Landing Page</a>
+            </div>
+            <div [innerHTML]="footer2" class="LinkContainer">
+                <a href="dataprivacy">Legal Notice</a>
+            </div>
+        </div>
+    }@else{}
+</div>

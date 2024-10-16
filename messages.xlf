@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="es" datatype="plaintext" original="ng2.template">
+    <trans-unit id="privacyPolicyTitle" datatype="html">
+        <source>Privacy Policy</source>
+        <target>Datenschutzerklärung</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">2,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy1" datatype="html">
+        <source>1. Data Protection at a Glance</source>
+        <target>1. Datenschutz auf einen Blick</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy2" datatype="html">
+        <source>General Information</source>
+        <target>Allgemeine Hinweise</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy3" datatype="html">
+        <source>The following notes provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally. Detailed information on the subject of data protection can be found in our privacy policy provided below this text.</source>
+        <target>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy4" datatype="html">
+        <source>Data Collection on This Website</source>
+        <target>Datenerfassung auf dieser Website</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy5" datatype="html">
+        <source>Who is responsible for data collection on this website?</source>
+        <target>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy6" datatype="html">
+        <source>Data processing on this website is carried out by the website operator. You can find the operator&apos;s contact details in the section &quot;Notice to the Responsible Party&quot; in this privacy policy.</source>
+        <target>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy7" datatype="html">
+        <source>How do we collect your data?</source>
+        <target>Wie erfassen wir Ihre Daten?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy8" datatype="html">
+        <source>Your data is collected in part by you providing it to us. This may include data that you enter into a contact form, for example.</source>
+        <target>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy9" datatype="html">
+        <source>Other data is collected automatically or with your consent when you visit the website by our IT systems. This mainly includes technical data (e.g., internet browser, operating system, or time of page access).</source>
+        <target>Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">17,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy10" datatype="html">
+        <source>2. Hosting</source>
+        <target>2. Hosting</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy11" datatype="html">
+        <source>External Hosting</source>
+        <target>Externes Hosting</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy12" datatype="html">
+        <source>This website is hosted externally. The personal data collected on this website is stored on the servers of the host. Hosting provider:</source>
+        <target>Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hosting-Anbieter:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy13" datatype="html">
+        <source> Cyberse GmbH &amp; Co. KG<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Arzbergweg 39<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> 91217 Hersbruck<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Germany </source>
+        <target>Cyberse GmbH &amp; Co. KG<br>
+        Arzbergweg 39<br>
+        91217 Hersbruck<br>
+        Deutschland</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">25,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy14" datatype="html">
+        <source>3. General Information and Mandatory Information</source>
+        <target>3. Allgemeine Hinweise und Pflichtinformationen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy15" datatype="html">
+        <source>Data Protection</source>
+        <target>Datenschutz</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy16" datatype="html">
+        <source>The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.</source>
+        <target>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">35,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy17" datatype="html">
+        <source>4. Own Services</source>
+        <target>4. Eigene Dienste</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy18" datatype="html">
+        <source>OneDrive</source>
+        <target>OneDrive</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy19" datatype="html">
+        <source>We have integrated OneDrive on this website. The provider is Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland.</source>
+        <target>Wir haben OneDrive auf dieser Website eingebunden. Anbieter ist die Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Irland.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">41,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy20" datatype="html">
+        <source>© 2024 Portfolio Design Gallery</source>
+        <target>&copy; 2024 Portfolio Design Gallery</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dataprivacy/dataprivacy.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="imprintTitle" datatype="html">
+        <source>Imprint</source>
+        <target>Impressum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="imprint1" datatype="html">
+        <source>David Victor Markus Burkert<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Kamorstraße 35<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> c/o Schmid<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> 78464 Konstanz</source>
+        <target>David Victor Markus Burkert<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Kamorstraße 35<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> c/o Schmid<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> 78464 Konstanz</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="imprint2" datatype="html">
+        <source>Contact</source>
+        <target>Kontakt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="imprint3" datatype="html">
+        <source>Phone: 015210577309<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Telefax: -<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> E-Mail: davidburkert@outlook.com</source>
+        <target>Telefon: 015210577309</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="imprint4" datatype="html">
+        <source>Editorially Responsible</source>
+        <target>Redaktionell verantwortlich</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="imprint5" datatype="html">
+        <source>David Burkert<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Kamorstraße 35<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> 78464 Konstanz</source>
+        <target>David Burkert</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="imprint6" datatype="html">
+        <source>Source: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.e-recht24.de&quot;&gt;"/>https://www.e-recht24.de<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Quelle: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.e-recht24.de&quot;&gt;"/>https://www.e-recht24.de<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage1" datatype="html">
+        <source>David Burkert</source>
+        <target>David Burkert</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage2" datatype="html">
+        <source>Frontend Developer</source>
+        <target>Frontend Developer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage3" datatype="html">
+        <source>Why me</source>
+        <target>Wieso ich ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage4" datatype="html">
+        <source>I am motivated to continously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member of your team.</source>
+        <target>Ich bin motiviert fortlaufend neue Technologien zu erlernen und mich selbst zu entwickeln. Meine Fähigkeit komplexe Probleme zu lösen und meine Passion für das programmieren machen mich zu einem wertvollen Teammitglied.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage5" datatype="html">
+        <source>I am</source>
+        <target>Ich bin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage6" datatype="html">
+        <source>Contact me</source>
+        <target>Kontaktier mich</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage7" datatype="html">
+        <source>My Skill Set</source>
+        <target>Mein Skillset</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage8" datatype="html">
+        <source>The IT landscape is continously evolving, with new technologies and methodologies. Staying motivated to expand my IT skills requires a strategic approach, a curios mindset, and a commitment to lifelong learning.</source>
+        <target>Die IT-Welt entwickelt sich fortlaufend weiter und es gibt neue Technologien und Methoden. Motiviert zu bleiben, um meine IT-Fähigkeiten zu erweitern, erfordert eine strategische herangehensweise, ein neuegieren Charakter und eine hingabe zu lebenslangem lernen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage9" datatype="html">
+        <source>Sass</source>
+        <target>Sass</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">103,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage10" datatype="html">
+        <source>Python</source>
+        <target>Python</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">126,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage11" datatype="html">
+        <source>Bootstrap</source>
+        <target>Bootstrap</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">144,145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage12" datatype="html">
+        <source>Windows</source>
+        <target>Windows</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">152,153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage13" datatype="html">
+        <source>Linux</source>
+        <target>Linux</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">160,161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage14" datatype="html">
+        <source> I&apos;m allways happy to learn new technologies, just tell me what you need. </source>
+        <target> Ich bin immer froh neue Technologien zu erlernen, sag mir einfach was du gerade brauchst. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">169,170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage15" datatype="html">
+        <source>My Work</source>
+        <target>Meine Arbeit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">182,184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage16" datatype="html">
+        <source>Project Join</source>
+        <target>Projekt Join</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">185,186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage17" datatype="html">
+        <source>About the project</source>
+        <target>Über das Projekt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">193,194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage18" datatype="html">
+        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and and categories. The Teamplaner includes a fully functional Login Area, a Contact Book, a Summary and a Database to store the progress of the tasks.</source>
+        <target>Team und Aufgabenplaner, welcher an das Kanbanboard angelehnt ist. Erstelle und Organiziere Aufgaben, nutze das Drag and Drop System um den Fortschritt des Projekts sichtbar zu machen. Weise Nutzer zu und füge Kategorien hinzu. Es gibt einen vollkommen funktionsfähigen Login-Bereich und eine Datenbank um den Fortschritt zu speichern.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">197,198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage19" datatype="html">
+        <source>Technologies I have used</source>
+        <target>Technologien die ich genutzt habe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">206,207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage20" datatype="html">
+        <source>HTML, JavaScript, CSS, Firebase, IP-Geolocation</source>
+        <target>HTML, JavaScript, CSS, Firebase, IP-Geolocation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">210,211</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage21" datatype="html">
+        <source>What I have learned</source>
+        <target>Was habe ich gelernt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">219,220</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage22" datatype="html">
+        <source>I&apos;ve learned to store and edit data in a Database. I&apos;learned to get and delete data from a Database. I&apos;ve also learned to fetch the data drom an API and to use the different options. In extra I&apos;ve stored the IP for the automatic Login.</source>
+        <target>Ich habe die Speicherung und Editierung von Daten in einer Firebase-Datenbank erlernt. Ich habe erlernt die Daten von einer API zu fetchen und so die Daten in der Firestore-Datenbank abzurufen, hochzuladen , zu löschen und zu editieren. Zusätzlich habe ich die IP des USERs aus eine rAPI abgerufen und für den automatischen Login und die Strafverfolgung abgespeichert.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">223,224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage23" datatype="html">
+        <source>Project Pollo Loco</source>
+        <target>Projekt Pollo Loco</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">233,234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage24" datatype="html">
+        <source>About the project</source>
+        <target>Über das Projekt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">241,242</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage25" datatype="html">
+        <source>Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa, while you have to jump over chickens and at the end you have to fight against the crazy hen.</source>
+        <target>Bei dem Spiel hhandelt es sich um ein Jump an Run Game, welches an SuperMario erinnert und welches Objektorientiert ist. In dem Spiel musst du dem Character dabei helfen Münzen und Tabaskoflaschen einzusammeln, während du über Hühnchen springst. Am Ende des Spiels muss dann noch der Endboss besiegt werden. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">245,246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage26" datatype="html">
+        <source>Technologies I have used</source>
+        <target>Technologien die ich benutzt habe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">254,255</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage27" datatype="html">
+        <source>HTML, JavaScript Classes, CSS</source>
+        <target>HTML, JavaScript Klassen, CSS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">258,259</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage28" datatype="html">
+        <source>What I have learned</source>
+        <target>Was habe ich gelernt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">267,268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage29" datatype="html">
+        <source>I&apos;ve coded classes and chained them correctly. I&apos;learned a lot in this project, for example to animate PNG sequences with Intervals in a canvas element, to implement game sounds and various Keyboard events and a lot more.</source>
+        <target>Ich habe Klassen kodiert und sie korrekt verkettet. Ich habe eine Menge in dem Projekt erlernt, zum Beispiel habe ich die Animation von Bildsequenzen, mithilfe von Intervallen und Folgen, in einem Canvas erlernt. In dem Projekt musste ich verscheidenste Keyboard events definieren und eine Menge mehr.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">271,272</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage30" datatype="html">
+        <source>Project Delivery-App</source>
+        <target>Projekt Bestell-App</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">281,282</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage31" datatype="html">
+        <source>About the project</source>
+        <target>Über das Projekt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">289,290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage32" datatype="html">
+        <source>In this App you can select and add dishes to the orderlist. It&apos;s possible to edit the order list. There is an extra page for the menu, the imprint and contacts. Everything is lovely designed with mp4s and pngs.</source>
+        <target>In dieser App kannst du Gerichte auswählen und zur Bestellung hinzufügen. Die Bestellung kann edietiert werden und es gibt eine extra Seite für das Menü, das Impressum und die Kontakte. Alles wurde liebevoll mit MP4s und PNGs ausgeschmückt.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">293,294</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage33" datatype="html">
+        <source>Technologies I have used</source>
+        <target>Technologien die ich benutzt habe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">302,303</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage34" datatype="html">
+        <source>HTML, JavaScript, CSS</source>
+        <target>HTML, JavaScript, CSS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">306,307</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage35" datatype="html">
+        <source>What I have learned</source>
+        <target>Was habe ich gelernt ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">315,316</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage36" datatype="html">
+        <source>I&apos;ve coded classes and chained them correctly. I&apos;learned a lot in this project, for example to animate PNG sequences with Intervals in a canvas element, to implement game sounds and various Keyboard events and a lot more.</source>
+        <target>Ich habe Klassen kodiert und sie korrekt verkettet. Ich habe eine Menge in dem Projekt erlernt, zum Beispiel habe ich die Animation von Bildsequenzen, mithilfe von Intervallen und Folgen, in einem Canvas erlernt. In dem Projekt musste ich verscheidenste Keyboard events definieren und eine Menge mehr.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">319,320</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage37" datatype="html">
+        <source>Project Polaroid Messenger</source>
+        <target>Projekt Polaroid Messenger</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">329,330</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage38" datatype="html">
+        <source>About the project</source>
+        <target>Über das Projekt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">337,338</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage39" datatype="html">
+        <source>In this App you can select and add dishes to the orderlist. It&apos;s possible to edit the order list. There is an extra page for the menu, the imprint and contacts. Everything is lovely designed with mp4s and pngs.</source>
+        <target>In dieser App kannst du Gerichte auswählen und zur Bestellung hinzufügen. Die Bestellung kann edietiert werden und es gibt eine extra Seite für das Menü, das Impressum und die Kontakte. Alles wurde liebevoll mit MP4s und PNGs ausgeschmückt.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">341,342</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage40" datatype="html">
+        <source>Technologies I have used</source>
+        <target>Technologien die ich benutzt habe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">350,351</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage41" datatype="html">
+        <source>HTML, JavaScript, CSS</source>
+        <target>HTML, JavaScript, CSS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">354,355</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage42" datatype="html">
+        <source>What I have learned</source>
+        <target> Was habe ich gelernt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">363,364</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage43" datatype="html">
+        <source>I&apos;ve coded classes and chained them correctly. I&apos;learned a lot in this project, for example to animate PNG sequences with Intervals in a canvas element, to implement game sounds and various Keyboard events and a lot more.</source>
+        <target>Ich habe Klassen kodiert und sie korrekt verkettet. Ich habe eine Menge in dem Projekt erlernt, zum Beispiel habe ich die Animation von Bildsequenzen, mithilfe von Intervallen und Folgen, in einem Canvas erlernt. In dem Projekt musste ich verscheidenste Keyboard events definieren und eine Menge mehr.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">367,368</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage44" datatype="html">
+        <source>Ongoing project</source>
+        <target>Neustes Projekt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">378,380</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage45" datatype="html">
+        <source>I am currently working on developing a streaming app. This is for me both exciting and challenging. In my work the key to success lies in a good planning and execution. With the streaming App national conficts could be solved and it could be possible to achieve peace with social interaction and moderation.</source>
+        <target>Ich arbeite gerade an einer Streaming-App. Das ist für mich sowohl aufregend, wie auch herausfordernd. In meiner Arbeit liegt der Schlüssel zum Erfolg in einer guten Planung und Ausführung. Mit der Streaming App könnten nationale Konflikte gelöst werden und es köntne Frieden mithilfe von sozialer Interaktion und durch eine Moderation erreicht werden.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">381,382</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage46" datatype="html">
+        <source>Let&apos;s talk</source>
+        <target>Lass uns reden.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">384,385</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage47" datatype="html">
+        <source>Contact me</source>
+        <target>Kontaktier mich</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">396,397</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage48" datatype="html">
+        <source>Let us work together.</source>
+        <target>Lass uns zusammenarbeiten.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">402,403</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage49" datatype="html">
+        <source>Whether your project involves developing a new application, implementing a new Database or calculate big Data sets, I have the technical acumen and problem-solving skills to ensure successful outcoumes.</source>
+        <target>Wenn dein Projekt die Entwicklung einer neuen Applikation, die Einbindung einer Datenbank oder die Kalkulation großer Datenmengen beinhaltet, habe ich das technische Verständnis und die Problemlösungsfähigkeiten, damit das Projekt einen erfolgreichen Ausgang hat.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">405,406</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage50" datatype="html">
+        <source>Legal notice</source>
+        <target>Impressum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">419,420</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landingPage51" datatype="html">
+        <source>privacy policy</source>
+        <target>Datenschutzerkärung</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landingpage/landingpage.component.html</context>
+          <context context-type="linenumber">420,421</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

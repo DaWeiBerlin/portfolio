@@ -1,0 +1,195 @@
+body 
+    font-family: Arial, Helvetica, sans-serif
+* 
+    box-sizing: border-box
+
+form
+  position: relative
+
+#name
+  font-size: 14px
+  background-color: transparent
+  width: 100%
+  padding: 12px 24px
+  border: 1px solid #b5e93b
+  border-radius: 30px
+  box-sizing: border-box
+  margin-top: 6px
+  color: #D3ED97
+  margin-bottom: 16px
+  resize: vertical
+  box-shadow: 0 0 5px #b5e93b
+  
+#company
+  font-size: 14px
+  background-color: transparent
+  width: 100%
+  padding: 12px 24px
+  border: 1px solid #b5e93b
+  border-radius: 30px
+  box-sizing: border-box
+  margin-top: 6px
+  color: #D3ED97
+  margin-bottom: 16px
+  resize: vertical
+  box-shadow: 0 0 5px #b5e93b
+  
+#email
+  font-size: 14px
+  background-color: transparent
+  width: 100%
+  padding: 12px 24px
+  border: 1px solid #b5e93b
+  border-radius: 30px
+  box-sizing: border-box
+  margin-top: 6px
+  color: #D3ED97
+  margin-bottom: 16px
+  resize: vertical
+  box-shadow: 0 0 5px #b5e93b
+  
+#subject
+  font-size: 14px
+  background-color: transparent
+  width: 100%
+  padding: 12px 24px
+  border: 1px solid #b5e93b
+  border-radius: 30px
+  box-sizing: border-box
+  margin-top: 6px
+  color: #D3ED97
+  margin-bottom: 16px
+  resize: none
+  box-shadow: 0 0 5px #b5e93b
+
+  
+input:focus,textarea:focus
+  outline: none
+
+
+// input[type=text], select, textarea 
+//   font-size: 14px
+//   background-color: transparent
+//   width: 100%
+//   padding: 12px 24px
+//   border: 1px solid #b5e93b
+//   border-radius: 30px
+//   box-sizing: border-box
+//   margin-top: 6px
+//   color: #D3ED97
+//   margin-bottom: 16px
+//   resize: vertical
+//   box-shadow: 0 0 5px #b5e93b
+
+// input[type=email], select, textarea 
+//   font-size: 14px
+//   background-color: transparent
+//   width: 100%
+//   padding: 12px 24px
+//   border: 1px solid #b5e93b
+//   border-radius: 30px
+//   box-sizing: border-box
+//   margin-top: 6px
+//   color: #D3ED97
+//   margin-bottom: 16px
+//   resize: vertical
+//   box-shadow: 0 0 5px #b5e93b
+
+input[type=button] 
+  border-radius: 30px
+  background: #9E9D9D
+  border: none
+  color: #252525
+  padding: 13px 30px
+  font-size: 14px
+  font-weight: 700
+
+
+input[type=submit] 
+  border-radius: 30px
+  background: #9E9D9D
+  border: none
+  color: #252525
+  padding: 13px 30px
+  font-size: 14px
+  font-weight: 700
+
+.container 
+  border-radius: 5px
+  background-color: transparent
+  padding: 20px
+  color: #b5e93b
+  @media screen and ( max-width: 1350px)
+    padding: 20px 20px 20px 20px
+  @media screen and ( max-width: 860px)
+    border-radius: 5px
+    background-color: transparent
+    padding: 20px 0
+    width: calc(100% - 0px)
+    color: #b5e93b
+    position: relative
+    bottom: 130px
+
+    
+  >form
+    >#privacyPolicyText
+      width: 416px
+      padding: 0 15px
+      display: flex
+      @media screen and ( max-width: 860px)
+        width: calc(100%)
+      >div
+        >#box
+          width: 18px
+          height: 18px
+          position: relative
+          top: 2px
+          left: 5px
+          border: 2px solid white
+          
+          &:hover
+            background-color: #b5e93b60
+            filter: drop-shadow(0 0 5px #b5e93b9f) 
+
+      
+textarea
+  resize: none
+  color: #D3ED97
+  padding: 13px 24px
+
+
+#privacyPolicy
+  color: white
+  text-decoration: underline
+  &:hover
+    color: #D3ED97
+
+#box
+  margin-right: 15px
+
+#contactFormButton
+  position: absolute
+  right: 0
+  bottom: -70px
+
+input:-internal-autofill-selected
+  background-color: light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4))
+  color: fieldtext
+
+
+input:-webkit-autofill 
+  background-color: #D3ED97
+  color: #252525
+  box-shadow: 0 0 5px #b5e93b
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active 
+  -webkit-box-shadow: 0 0 5px #b5e93b !important
+  box-shadow: 0 0 5px #b5e93b
+  transition: background-color 0.5s ease-in-out 0s
+
+  
+
+    
